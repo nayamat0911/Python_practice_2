@@ -1,9 +1,12 @@
+"""
 print(2+4*4-3)
 print(6/3)
 print(6//3)
 print(5/3)
 print(5//3)
+"""
 #new lesseon
+"""
 print("Today's lessone")
 for i in range(2,30,2):
     print(i)
@@ -15,7 +18,7 @@ for i in range(1,10,4):
 print("range")
 for i in range(1,5,2):
     print(i)
-
+"""
 """ print("infinit loop")
 while True:
     print("please enter name:")
@@ -78,6 +81,31 @@ def print_my_name(name):
 
 my_name =input()
 print_my_name(my_name)
-"""
-var =print("ok")
+
+var = print("ok")
 print(type(var))
+print("hello ",end='')
+print("world")
+print('a', 'b', 'c', 'd', sep='-')
+
+def f():
+    c =10
+    print(c)
+f()
+#
+# print(c)
+
+"""
+"""
+def func():
+    global a
+    print(a+2)
+a=19
+func()
+"""
+
+def pop():
+    print(x)
+    x =100
+x=100
+print(x)
