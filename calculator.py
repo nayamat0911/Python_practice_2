@@ -103,9 +103,55 @@ def func():
 a=19
 func()
 """
-
+'''
 def pop():
     print(x)
     x =100
 x=100
 print(x)
+'''
+#p
+# rint("skw",'name', 'kamal', 5,6, sep=',')
+
+a="I"
+b = "love"
+c= "you"
+print("hey", a,b,c)
+
+print("%s love %s"%(a,b))
+
+n0name="anis"
+print(n0name)
+
+a=5
+b = 5.4
+c ="name"
+d= (1,2,3,4)
+e={1,2,3,4,5}
+f=[1,2,3,4,5,6,7]
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(a,b,c,d,e,f, sep="\n")
+x,y,z,h="hasan", "kamal", "manik","jalam"
+print(c+ " "+ h)
+print(x,y,z,h, sep="\n")
+x=y=z="nayamt"
+print(x,y,z)
+del z
+print(x,y)
+# a = input("plz enter name: ")
+# b =int(input())
+# c = float(input())
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# a,b,c,d = input("enter your number :").split("*")
+# print("{} {} {} {}".format(a,b,c,d))
+
+import keyword
+print(keyword.kwlist)
+
