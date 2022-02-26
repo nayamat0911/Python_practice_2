@@ -155,3 +155,19 @@ print(x,y)
 import keyword
 print(keyword.kwlist)
 
+#1 arithmetic operators
+#2 Assignment Operatos
+#3 Comparison Operatos
+#4 Logical Operatos
+#5 Identify Operators
+#6 Membership Operators
+#7 Bitwise Operators
+#8 Tenary perators
+print("Arethmetic operatos= add, sub, mul,div,mod, power")
+print("arethmetic perators")
+print(5//3)
+print(10%3)
+print(20**3)
+
+print("Comparisom Operators= Equal==, Not equal !=, Greter than >, less than <, Greter than or Equal to >= , less than or equal to <=  ", sep="\n")
+print("")
