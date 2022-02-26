@@ -165,9 +165,21 @@ print(keyword.kwlist)
 #8 Tenary perators
 print("Arethmetic operatos= add, sub, mul,div,mod, power")
 print("arethmetic perators")
+print(10+5)
+print(10-5)
+print(10*5)
+print(10/5)
 print(5//3)
 print(10%3)
 print(20**3)
 
 print("Comparisom Operators= Equal==, Not equal !=, Greter than >, less than <, Greter than or Equal to >= , less than or equal to <=  ", sep="\n")
-print("")
+a=20
+b=4
+print(a==b)
+print(a !=b)
+print(a>b)
+print(a<b)
+print(a >= b)
+print(a<=b)
+
