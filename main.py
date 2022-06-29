@@ -1,16 +1,26 @@
-# This is a sample Python script.
+print("hello World")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# global vriable
+# local variable
+# devlare valu
 
+a =5;
+print(a)
+b =6;
+print(a+b)
+# str int float str tuple set list
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+g = 5
+g =6
+print(g)
+print("deffrient data in one variable line")
+# data concat
+a , b, c, f, r,c = 10, 10.5, "codelough", (1,2,3,4,5), {1,2,3,4},49
+print(a,b,c,f,r,c, sep="\n")
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# same valu in multiplae line
+a=b=c=d=t=10
+print(t)
+del t
+# print(t)
+print("ghello")
